@@ -107,7 +107,7 @@ wid_dn = wave_mnch(rc5_msg_dn, PIN, RC5_PER)
 # run cec-client and watch output
 # (because I can't get the damn python API to work!)
 p = subprocess.Popen(
-    args=["/usr/bin/cec-client", "--type", "a", "RPI"],
+    args=["/usr/bin/cec-client", "--type", "a"],
     stdin=subprocess.PIPE,
     stdout=subprocess.PIPE,
     universal_newlines=True,

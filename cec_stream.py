@@ -13,7 +13,7 @@ VOL_DN = "key pressed: volume down (42)"
 MUTE = "key pressed: mute (43)"
 READY = "audio status '7f'"  # message sent by cec-client to TV at end of handshaking
 
-VOL_STEPS = 4
+VOL_STEPS = 1
 
 PIN = 4  # CPU GPIO number (not physical IO header pin number)
 
